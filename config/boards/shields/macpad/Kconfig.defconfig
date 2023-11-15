@@ -1,0 +1,6 @@
+if SHIELD_MACPAD
+
+config ZMK_KEYBOARD_NAME
+    default "macpad"
+
+endif
