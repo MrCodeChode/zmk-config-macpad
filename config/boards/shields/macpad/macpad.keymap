@@ -1,7 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-&left_encoder { status = "enabled"; }
+&vol_encoder { status = "enabled"; }
 
 / {
     keymap {
