@@ -23,7 +23,3 @@
             ;
     };
 };
-
-&vol_encoder {
-        status = "okay";
-    };
