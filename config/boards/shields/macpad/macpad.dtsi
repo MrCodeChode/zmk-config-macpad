@@ -6,3 +6,9 @@
         steps = <20>;
         status = "disabled";
     };
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&vol_encoder>;
+        triggers-per-rotation = <20>;
+    };
