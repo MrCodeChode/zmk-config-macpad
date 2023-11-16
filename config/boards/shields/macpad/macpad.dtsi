@@ -3,8 +3,8 @@ vol_encoder: encoder_vol {
     label = "VOL_ENCODER";
     a-gpios = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     b-gpios = <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-    steps = <20>;
-    status = "enabled";
+    steps = <80>;
+    status = "disabled";
 };
 
 sensors: sensors {
