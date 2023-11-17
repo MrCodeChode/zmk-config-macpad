@@ -24,6 +24,6 @@
     };
 };
 
-&left_encoder {
+&vol_encoder {
     status = "okay";
 };
