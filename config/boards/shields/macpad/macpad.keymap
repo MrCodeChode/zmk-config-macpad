@@ -1,8 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-&vol_encoder { status = "enabled"; }
-
 / {
     keymap {
         compatible = "zmk,keymap";
